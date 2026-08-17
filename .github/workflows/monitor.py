@@ -4,7 +4,7 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
-URL = "https://quintalbutia.com.br/categoria/agenda/"
+URL = "https://g1.globo.com"
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 HASH_FILE = "last_hash.txt"
