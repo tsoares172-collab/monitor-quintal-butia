@@ -29,7 +29,7 @@ jobs:
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python monitor.py
+        run: python .github/workflows/monitor.py
 
       - name: Salvar estado anterior
         uses: stefanzweifel/git-auto-commit-action@v5
